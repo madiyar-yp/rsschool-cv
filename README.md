@@ -1,1 +1,1 @@
-# rsschool-cv
+https://madiyar-yp.github.io/rsschool-cv/cv
