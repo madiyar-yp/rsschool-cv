@@ -14,3 +14,26 @@ I am now 25 years old. In the past places where I worked, I was not interested a
 * CSS/SASS/SCSS
 * Javascript (Basic)
 * Git/GitHub
+
+# Code example
+
+```
+function multiply(a, b){
+    return a * b;
+}
+let result = multiply(2, 5);
+console.log(result);
+```
+
+# Education
+* **International College of Business and Communication, Almaty city**
+    + Information Systems
+* **Udemy**
+    + [WEB-developer(HTML/CSS/SASS/SCSS)](https://www.udemy.com/course/webdeveloper/)
+    + [JavaScript(Basics)](https://www.udemy.com/course/javascript_full/)
+    + [Python(Basics)](https://www.udemy.com/course/bestpython/)
+
+# Languages
+* Kazakh
+* Russian
+* English(A1)
