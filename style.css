@@ -43,3 +43,35 @@ body {
 .main {
     display: flex;
 }
+/*Header styles*/
+.header {
+    display: flex;
+}
+.header > .column {
+    padding: 0;
+}
+.header-avatar img {
+    width: 100%;
+    height: 100%;
+}
+.header-heading {
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.header-heading-h3 {
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.header-heading-h3 span {
+    display: inline-block;
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.about-me {
+    margin-top: 16px;
+    line-height: 17px;
+}
+/*--------------------*/
