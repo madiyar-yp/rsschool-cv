@@ -112,3 +112,21 @@ body {
     font-weight: 500;
 }
 /*--------------------*/
+/*Section-skills & Section-lang styles*/
+.section-slills, .section-lang {
+    padding-top: 32px;
+}
+.skills-list, .lang-list {
+    margin-top: 16px;
+}
+.skills-list li, .section-lang li {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.skills-list li:last-child, .section-lang li:last-child {
+    margin-bottom: 0px;
+}
+.lang-list {
+    margin-bottom: 110px;
+}
+/*--------------------*/
