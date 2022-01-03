@@ -178,3 +178,45 @@ code {
     border-radius: 5px;
 }
 /*--------------------*/
+/*Footer styles*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #292929;
+    box-shadow: 0 5px 5px 2px rgb(34, 60, 80, 0.2);
+}
+.footer a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.footer a:hover {
+    opacity: 0.8;
+}
+.footer p {
+    color: #fff;
+}
+.footer-github-icon {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+}
+.footer-rss-icon {
+    display: inline-block;
+    width: 73px;
+    height: 26px;
+}
+/*--------------------*/
+
+@media (max-width: 768px) {
+    .column {
+        padding: 0 20px;
+    }
+    .column-main {
+        padding: 0 20px;
+    }
+}
