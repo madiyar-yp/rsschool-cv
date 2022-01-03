@@ -15,3 +15,31 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #292929;
+    background-color: #FAECE5;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 825px;
+    margin: 0 auto;
+    box-shadow: 0 5px 5px 2px rgb(34, 60, 80, 0.2);
+}
+.column {
+    width: 32%;
+    height: 100%;
+    background-color: #f3f4f5;
+    padding: 0 35px;
+}
+.column-main {
+    width: 68%;
+    background-color: #fff;
+    padding: 0px 32px;
+    box-shadow: 0 5px 5px 2px rgb(34, 60, 80, 0.2);
+}
+.main {
+    display: flex;
+}
