@@ -130,3 +130,37 @@ body {
     margin-bottom: 110px;
 }
 /*--------------------*/
+/*Section-edu styles*/
+.section-edu > .universal-h2 {
+    margin-top: 31px;
+    text-align: left;
+}
+.section-edu > .universal-h2:after {
+    margin: 6px 0 0 0;
+}
+.edu-list a:hover {
+    color: #292929;
+    opacity: 0.8;
+}
+.edu-list li{
+    margin: 16px 0;
+    font-weight: 700;
+    line-height: 18px;
+}
+.edu-list li::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url('../img/icons/Ellipse.svg') no-repeat;
+    margin-right: 5px;
+}
+.edu-list-child li {
+    padding-left: 30px;
+    font-weight: 500;
+}
+.edu-list-child li::before {
+    content: '';
+    background: url('../img/icons/Ellipse2.svg') no-repeat;
+}
+/*--------------------*/
