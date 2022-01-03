@@ -164,3 +164,17 @@ body {
     background: url('../img/icons/Ellipse2.svg') no-repeat;
 }
 /*--------------------*/
+/*Section-code styles*/
+.section-code > .universal-h2 {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.section-code > .universal-h2:after {
+    margin: 6px 0 0 0;
+}
+code {
+    display: block;
+    border-radius: 5px;
+}
+/*--------------------*/
